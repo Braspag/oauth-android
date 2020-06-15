@@ -10,6 +10,7 @@ script:
   - ./gradlew clean :oauth:clean oauth:assembleRelease
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: ./gradlew :cieloecommerceoauth:bintrayUpload
   on:
