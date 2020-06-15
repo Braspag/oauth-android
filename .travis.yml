@@ -6,7 +6,8 @@ android:
     - android-29
 
 script:
-  - chmod +x ./gradlew clean :oauth:clean oauth:assembleRelease
+  - chmod +x ./gradlew
+  - ./gradlew clean :oauth:clean oauth:assembleRelease
 
 deploy:
   provider: script
