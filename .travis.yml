@@ -12,6 +12,6 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: ./gradlew :cieloecommerceoauth:bintrayUpload
+  script: ./gradlew :oauth:bintrayUpload
   on:
     branch: master
