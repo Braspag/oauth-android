@@ -1,6 +1,6 @@
 # OAUTH-ANDROID [![Status](https://travis-ci.com/Braspag/oauth-android.svg?branch=master)](https://travis-ci.com/Braspag/oauth-android) [ ![Download](https://api.bintray.com/packages/braspag/oauth/oauth/images/download.svg) ](https://bintray.com/braspag/oauth/oauth/_latestVersion)
 
-Android Library para auxiliar na obtenção do AccessToken para OAuth Cielo
+Android Library para auxiliar na obtenção do AccessToken para OAuth Braspag
 
 ## Instalação
 
